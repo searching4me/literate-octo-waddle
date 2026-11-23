@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-hjelp – <%= kommuneNavn %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Header / Topptekst -->
+    <header>
+        <h1>Velkommen til IT-hjelp</h1>
+        <p>Din støttespiller for IT-utstyr og digitale tjenester i <%= kommuneNavn %>.</p>
+    </header>
+
+    <!-- Hovedinnhold -->
+    <main>
+        <!-- Seksjon om IT-avdelingen -->
+        <section>
+            <h2>Om IT-avdelingen</h2>
+            <p>IT-avdelingen kan hjelpe deg med alt du trenger av datautstyr, programvare, tilganger og digitale tjenester i ditt daglige arbeid. Vi sørger for at systemene våre er trygge og fungerer som de skal.</p>
+            <p><strong>Kontaktinformasjon:</strong></p>
+            <p>Åpningstid: Mandag – Fredag kl. 08:00 – 15:30<br>
+               E-post: <a href="mailto:<%= epost %>"><%= epost %></a><br>
+               Telefon: <%= telefon %></p>
+        </section>
+
+        <!-- Seksjon for nyansatte -->
+        <section>
+            <h2>Nyttig informasjon for nye ansatte</h2>
+            <p>For at du skal komme best mulig i gang på din første arbeidsuke, har vi samlet noen viktige sjekkpunkter og råd under:</p>
+            
+            <ol>
+                <li><strong>Sjekk PC-en din:</strong> Forsikre deg om at maskinen starter ordentlig og at du har logget inn med din tildelte brukerkonto.</li>
+                <li><strong>Bruk de rette verktøyene:</strong> Gjør deg kjent med e-post, kalender og fellesområder i Microsoft 365.</li>
+                <li><strong>Sikkerhet i fokus:</strong> Del aldri passordet ditt med andre, og husk å låse PC-en (Windows-tast + L) hver gang du forlater plassen din.</li>
+                <li><strong>Trenger du hjelp?:</strong> Ikke nøl med å ta kontakt med oss i IT-avdelingen dersom du opplever tekniske problemer.</li>
+            </ol>
+        </section>
+    </main>
+
+    <!-- Bunntekst -->
+    <footer>
+        <p>&copy; 2026 <%= kommuneNavn %> – IT-avdelingen</p>
+    </footer>
+
+</body>
+</html>
